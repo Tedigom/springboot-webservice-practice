@@ -1,7 +1,9 @@
 package com.tedigom.springboot.web;
 
 import com.tedigom.springboot.service.posts.PostsService;
+import com.tedigom.springboot.web.dto.PostsResponseDto;
 import com.tedigom.springboot.web.dto.PostsSaveRequestDto;
+import com.tedigom.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.*;
 
